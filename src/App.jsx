@@ -1,6 +1,6 @@
-import './App.css'
+import "./App.css";
 // import RiderRegistration from './component/Authentication/riderregistration'
-// import Verify from './component/Authentication/verify'
+import Verify from "./component/Authentication/verify";
 // import Reset from './component/Authentication/reset'
 // import Successfull from './component/Authentication/successfull'
 
@@ -8,19 +8,16 @@ import './App.css'
 // import Map from './component/map'
 
 function App() {
- 
-
   return (
     <div>
       {/* <Map/> */}
       {/* <SignUp/> */}
       {/* <Reset/> */}
-      {/* <Verify/> */}
+      <Verify />
       {/* <Successfull/> */}
       {/* <RiderRegistration/> */}
-   </div>
-   
-  )
+    </div>
+  );
 }
 
-export default App
+export default App;
