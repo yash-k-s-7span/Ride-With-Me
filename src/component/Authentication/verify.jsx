@@ -57,7 +57,7 @@ function Verify() {
             Enter the code sent to xxxxx xxxxx
           </p>
         </div>
-        <div className="flex h-64 mt-8 grow">
+        <div className="flex h-64 mt-8 justify-evenly grow">
           {codes.map((code, index) => (
             <input
               key={index}
