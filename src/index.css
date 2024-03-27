@@ -7,6 +7,9 @@
   justify-items: start;
   display: flow-root;
 }
+#upload-photo{
+  display: none;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

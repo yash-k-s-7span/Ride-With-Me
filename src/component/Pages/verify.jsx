@@ -1,24 +1,3 @@
-
-// const Verify = () => {
-//   return (
-//     <div>
-//         <div className="container pt-16">
-//         {/* <!--[--> */}
-//             <div className="flex justify-start">
-//                 <h1 className="font-poppins font-semibold text-black text-4xl">Verify</h1>
-//             </div>
-//             <div className="mt-2">
-//                 <span className="text-grayB text-wrap font-poppins text-sm font-normal pr-3">Enter the code sent to xxxxx xxxxx</span>
-//             </div>
-//             <div className="flex justify-start">
-//                 <input type="number" inputMode="numeric" className="w-20 h-16 mt-8 border border-grayB rounded-lg"/>
-//             </div>
-//         </div>
-//     </div>
-//   );
-// }
-
-// export default Verify;
 import  { useState, useRef, useEffect } from 'react';
 
 function Verify() {

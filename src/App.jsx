@@ -1,15 +1,10 @@
 import './App.css'
-// import RiderRegistration from './component/Authentication/riderregistration'
-// import Verify from './component/Authentication/verify'
-// import Reset from './component/Authentication/reset'
-// import Successfull from './component/Authentication/successfull'
-
-// import SignUp from './component/Authentication/signup'
-// import Map from './component/map'
-
+import RiderRegistration from './component/Pages/riderregistration'
+// import Verify from './component/Pages/verify'
+// import Reset from './component/Pages/reset'
+// import Successfull from './component/Pages/successfull'
+// import SignUp from './component/Pages/signup'
 function App() {
- 
-
   return (
     <div>
       {/* <Map/> */}
@@ -17,10 +12,8 @@ function App() {
       {/* <Reset/> */}
       {/* <Verify/> */}
       {/* <Successfull/> */}
-      {/* <RiderRegistration/> */}
+      <RiderRegistration/>
    </div>
-   
   )
 }
-
 export default App
